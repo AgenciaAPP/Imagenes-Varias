@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    /* Quitamos márgenes para que se vea perfecto en SharePoint */
+    body { margin: 0; padding: 0; overflow: hidden; }
+    
+    /* El contenedor que mantiene todo en su sitio */
+    .mapa-contenedor {
+      position: relative;
+      width: 100%;
+      max-width: 1920px;
+      margin: 0 auto;
+    }
+    
+    /* La imagen de tu equipo de diseño */
+    .mapa-imagen {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    /* La magia del botón invisible */
+    .boton-interactivo {
+      position: absolute;
+      border-radius: 20px; /* Bordes redondeados */
+      transition: all 0.3s ease;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+    
+    /* El color azul corporativo al pasar el mouse */
+    .boton-interactivo:hover {
+      background-color: rgba(0, 74, 135, 0.4); 
+      border: 3px solid #004A87;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mapa-contenedor">
+    <img src="https://raw.githubusercontent.com/AgenciaAPP/Imagenes-Varias/refs/heads/main/procesos_estrategicos.png" class="mapa-imagen" alt="Mapa de Procesos">
+
+    <a href="AQUI_TU_ENLACE_1" target="_blank" class="boton-interactivo" style="left: 22.9%; top: 13.0%; width: 16.2%; height: 10.3%;"></a>
+    
+    <a href="AQUI_TU_ENLACE_2" target="_blank" class="boton-interactivo" style="left: 52.6%; top: 13.0%; width: 24.4%; height: 10.3%;"></a>
+
+    <a href="AQUI_TU_ENLACE_3" target="_blank" class="boton-interactivo" style="left: 23.8%; top: 51.5%; width: 15.8%; height: 9.5%;"></a>
+    
+    <a href="AQUI_TU_ENLACE_4" target="_blank" class="boton-interactivo" style="left: 42.0%; top: 51.5%; width: 15.8%; height: 9.5%;"></a>
+    
+    <a href="AQUI_TU_ENLACE_5" target="_blank" class="boton-interactivo" style="left: 60.3%; top: 51.5%; width: 15.8%; height: 9.5%;"></a>
+  </div>
+
+</body>
+</html>
